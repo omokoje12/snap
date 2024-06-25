@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.row{
+    align-items: center;
+    display: flex;
+    gap: 4px;
+}
+.rig{
+    border: none;
+    background-color: white;
+    border: 2px solid black;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.side{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+
+}
+.hero{
+    font-size: 80px;
+    width: 28vw;
+    gap: 30px;
+}
+.hero1{
+    font-size: 20px;
+    width: 24vw;
+    color: grey;
+    
+}
+.but{
+    border: none;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    height: 3vh;
+    gap: 60px;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.down2{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.pic{
+    height: 57vh;
+}
+.mm{
+    height: 45vh;
+}
+.moble{
+    display: flex;
+    display: none;
+}
+.lo{
+    display: none;
+}
+.vc{
+    height: 2vh;
+    width: 3vw;
+}
+@media screen and (max-width:950px) {
+    .list{
+        display: none;
+    }
+    .side{
+        display: flex;
+        display: none;
+    }
+    .lo{
+        display: block;
+    }
+    .up{
+        display: flex;
+        padding: 20px;
+        gap: 250px;
+    }
+    .head{
+        display: flex;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 30px;
+        gap: 40px;
+    }
+    .down{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .pic{
+        height: 57vh;
+        display: none;
+    }
+    .moble{
+        display: flex;
+        display: none;
+        display: list-item;
+    }
+    .hero{
+        text-align: center;
+        font-size: 45px;
+        width: 130vw;
+        gap: 30px;
+    }
+    .hero1{
+        font-size: 16px;
+        width: 69vw;
+        text-align: center;
+    }
+    .but{
+        width: 30vw;
+        height: 7vh;
+    }
+    .vc{
+        height: 3vh;
+        width: 14vw;
+    }
+    .logo{
+        display: flex;
+        height: 3vh;
+        gap: 40px;
+    }
+    .down2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+}
